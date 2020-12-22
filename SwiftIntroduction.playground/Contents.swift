@@ -68,3 +68,27 @@ print(val!)
 var val2:Int8! = 5
 print(val2)
 
+// String operations
+let s1 = "Hello"
+let s2 = ", world"
+var result2 = s1 + s2
+print(result2)
+
+// Using the append function
+result2.append("!")
+print(result)
+
+// String interpolation
+let playerName = "Alex"
+let playerScore = 99
+let message = "Congrats, \(playerName)! Your highest score is \(playerScore)."
+print(message)
+
+// Uppercase and Lowercase
+let s3 = "Hello, World!"
+print("Uppercase: ", s3.uppercased())
+print("Lowercase: ", s3.lowercased())
+
+// Length of the string
+let s4 = "Hello, World!"
+print(s4.count)

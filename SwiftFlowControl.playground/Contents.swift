@@ -104,3 +104,14 @@ let s1 = "This is swift!"
 for i in s1 where i != "!" {
     print(i)
 }
+
+// for loop with a labeled break statement
+outerLoop: for j in 1...2 {
+    innerLoop: for i in 1...5 {
+        if i == 4 {
+            break outerLoop
+        }
+        print("i = \(i)")
+    }
+    print("j = \(j)")
+}
